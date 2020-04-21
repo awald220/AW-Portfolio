@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+}
+
+#header {
+    display: flex;
+}
+
+#logo {
+    flex: 1;
+}
+
+ul {
+    flex: 1;
+    display: flex;
+}
+
+ul li {
+    flex: 1;
+}
+
+#main-content {
+    width: 80%;
+}
+
+#top-section {
+    display: flex;
+}
+
+#left {
+    flex: 1;
+}
+
+#left h1 {
+
+}
+
+#left p {
+
+}
+
+#right {
+    flex: 1;
+}
+
+#label-section {
+
+}
+
+#about-section {
+
+}
+
+#about-section p {
+
+}
+
+#link-section {
+    display: flex;
+}
+
+#gitHub {
+    flex: 1;
+}
+
+#linkedIn {
+    flex: 1;
+}
+
+#resume {
+    flex: 1;
+}
+
+#footer {
+
+}
+
+/* ---Portfolio Page--- */
