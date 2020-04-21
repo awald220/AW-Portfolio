@@ -124,7 +124,7 @@ ul li {
     display: flex;  
     background-color: #FAFAFA;
     margin: auto;
-    margin-left: 10%;
+    margin-left: 20%;
     font-family: 'Abel', sans-serif;
    
   
@@ -240,4 +240,59 @@ ul li {
     color: #FAFAFA;    
     font-family: 'Abel', sans-serif;
 
+}
+/* 
+---Media Queries--- */
+@media screen and (max-device-width: 1500px) {
+    #left {
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-device-width: 980px){
+   #left {
+       margin-top: 15%;
+   }
+
+}
+
+@media screen and (max-width: 768px){
+    #logo {
+        margin-left: 13%;
+    }
+    #left {
+        padding: 10px;
+    }
+
+    #top-section {
+        height: 600px;
+        margin-top: 10%;
+    }
+
+    #top-section img {
+        height: 620px;
+    }
+
+    #link-section {
+        margin-left: 13%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+  #logo {
+      margin-left: 70px;
+  }
+
+  #top-section {
+      height: 500px;
+      margin-top: 15%;
+  }
+
+  #top-section img {
+    height: 520px;
+  }
+
+  #link-section {
+      margin-left: 10%;
+  }
 }
