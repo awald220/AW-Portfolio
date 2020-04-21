@@ -81,6 +81,7 @@ ul li {
 
 #left p {
     text-align: center;
+    font-size: larger;
 }
 
 #left button {
@@ -90,6 +91,7 @@ ul li {
     border: 1px solid #424242;
     margin-top: 5px;
     font-family: 'Abel', sans-serif;
+    font-size: larger;
 }
 
 #right {
@@ -103,10 +105,11 @@ ul li {
     width: 100%;
     height: 75px;
     font-family: 'Abel', sans-serif;
+    font-size: 30px;
 }
 
 #label-section h3 {
-    padding: 25px;
+    padding: 18px;
 }
 
 #about-section {
@@ -139,11 +142,12 @@ ul li {
 
 #link-section button {
    border-radius: 100px;
-   padding: 5px;
+   padding: 8px;
    width: 75px;
    margin-left: -74px;
    margin-bottom: 20px;
    font-family: 'Abel', sans-serif;
+   font-size: medium;
    
 }
 
@@ -226,6 +230,7 @@ ul li {
     background-color: #424242;
     color: #FAFAFA;
     font-family: 'Abel', sans-serif;
+    font-size: medium;
 }
 
 #button {
@@ -239,6 +244,7 @@ ul li {
     background-color: #424242;
     color: #FAFAFA;    
     font-family: 'Abel', sans-serif;
+    font-size: larger;
 
 }
 /* 
