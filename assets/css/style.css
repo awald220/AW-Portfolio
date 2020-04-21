@@ -9,6 +9,10 @@ body{
     color: #FAFAFA;
     width: 100%;
     height: 60px;
+    padding-right: 10px;
+    margin-bottom: 3%;
+    margin-top: -10px;
+    margin-left: -10px;
 }
 
 #logo {
@@ -19,12 +23,13 @@ body{
     width: 50px;
     margin-top: 5px;
     margin-left: 50px;
+    
 
 
 }
 #logo p {
     padding: 10px;
-    padding-top: 15px;
+    padding-top: 0px;
 }
 
 #nav {
@@ -41,6 +46,7 @@ body{
 ul li {
     flex: 1;
     padding: 10px;
+    margin-left: 20px;
 }
 
 #main-content {
@@ -50,19 +56,20 @@ ul li {
     margin: auto;
     box-shadow: 0px 5px 5px 5px grey;
     background-color: #FAFAFA;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 #top-section {
     display: flex;
     background-color: #FAFAFA;
     height: 750px;
+    font-family: 'Abel', sans-serif;
 }
 
 #left {
    flex: 1;
     text-align: center;
-    margin-top: 210px;
+    margin-top: 10%;
     color: #424242;
    
 }
@@ -76,6 +83,15 @@ ul li {
     text-align: center;
 }
 
+#left button {
+    border-radius: 100px;
+    padding: 10px;
+    width: 175px;
+    border: 1px solid #424242;
+    margin-top: 5px;
+    font-family: 'Abel', sans-serif;
+}
+
 #right {
     flex: 1;
 }
@@ -85,11 +101,12 @@ ul li {
     text-align: center;
     color: #FAFAFA;
     width: 100%;
-    height: 50px;
+    height: 75px;
+    font-family: 'Abel', sans-serif;
 }
 
 #label-section h3 {
-    padding: 15px;
+    padding: 25px;
 }
 
 #about-section {
@@ -100,18 +117,39 @@ ul li {
 #about-section p {
     padding: 20px;
     text-align: center;
+    font-family: 'Abel', sans-serif;
 }
 
 #link-section {
     display: flex;  
     background-color: #FAFAFA;
+    margin: auto;
+    margin-left: 10%;
+    font-family: 'Abel', sans-serif;
    
   
 
 }
 
+#link-section img{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+#link-section button {
+   border-radius: 100px;
+   padding: 5px;
+   width: 75px;
+   margin-left: -74px;
+   margin-bottom: 20px;
+   font-family: 'Abel', sans-serif;
+   
+}
+
 #gitHub {
     flex: 1;
+    
 }
 
 #linkedIn {
@@ -123,10 +161,83 @@ ul li {
 }
 
 #footer {
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     color: #424242;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 
 /* ---Portfolio Page--- */
+
+#main-sec {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 5px 5px 5px grey;
+    background-color: #FAFAFA;
+    margin-bottom: 80px;
+}
+
+#portfolio-section1 {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#portfolio-section2 {
+    display: flex;
+    margin: auto;
+}
+
+#portfolio-section3 {
+    display: flex;
+    margin: auto;
+}
+
+#project {
+    flex: 1;
+    margin: 20px;
+    border: 1px solid #424242;
+    border-radius: 4px;
+}
+
+#project img {
+    border-bottom: 1px solid #424242;
+}
+
+#project h4 {
+    padding: 10px;font-family: 'Abel', sans-serif;
+
+}
+
+#project p {
+    padding: 10px;
+    height: 90px;
+    font-family: 'Abel', sans-serif;
+}
+
+#project button {
+    padding: 5px;
+    border-radius: 100px;
+    margin-left: 30px;
+    width: 75px;
+    margin-bottom: 20px;
+    background-color: #424242;
+    color: #FAFAFA;
+    font-family: 'Abel', sans-serif;
+}
+
+#button {
+    
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: 190px;
+    width: 175px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #424242;
+    color: #FAFAFA;    
+    font-family: 'Abel', sans-serif;
+
+}
