@@ -98,6 +98,10 @@ ul li {
     flex: 1;
 }
 
+
+
+
+
 #label-section {
     background-color:#424242;
     text-align: center;
@@ -259,8 +263,8 @@ ul li {
    #left {
        margin-top: 15%;
    }
-
 }
+
 
 @media screen and (max-width: 768px){
     #logo {
@@ -271,14 +275,11 @@ ul li {
     }
 
     #top-section {
-        height: 600px;
+        height: 650px;
         margin-top: 10%;
     }
 
-    #top-section img {
-        height: 620px;
-    }
-
+   
     #link-section {
         margin-left: 13%;
     }
@@ -290,7 +291,7 @@ ul li {
   }
 
   #top-section {
-      height: 500px;
+      height: 485px;
       margin-top: 15%;
   }
 
