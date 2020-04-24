@@ -132,13 +132,10 @@ ul li {
 #link-section {
     display: flex;  
     background-color: #FAFAFA;
-    
-    margin-left: 20%;
+    /* margin-left: 20%; */
     font-family: 'Abel', sans-serif;
-   
-  
-
-}
+    margin: auto;
+}  
 
 #link-section img{
     margin-top: 20px;
@@ -163,15 +160,24 @@ ul li {
 
 #gitHub {
     flex: 1;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
     
 }
 
 #linkedIn {
     flex: 1;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
 }
 
 #resume {
     flex: 1;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
 }
 
 #footer {
@@ -260,52 +266,4 @@ ul li {
     font-size: larger;
 
 }
-/* 
----Media Queries--- */
-/* @media screen and (max-device-width: 1500px) {
-    #left h1{
-        margin-top: -10%;
-    }
-}
 
-@media screen and (min-device-width: 980px){
-   #left h1{
-       margin-top: 0%;
-   }
-}
-
-
-@media screen and (min-device-width: 768px){
-    #left {
-        padding: 10px;
-    }
-
-    #top-section {
-        height: 650px;
-    }
-
-    #left h1 {
-        margin-top: 40%;
-    }
-   
-    #link-section {
-        margin-left: 13%;
-    }
-}
-
-@media screen and (min-device-width: 640px) {
-
-
-  #top-section {
-      height: 485px;
-      margin-top: 15%;
-  }
-
-  #top-section img {
-    height: 520px;
-  }
-
-  #link-section {
-      margin-left: 10%;
-  }
-} */
