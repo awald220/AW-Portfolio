@@ -235,6 +235,7 @@ ul li {
     width: 75px;
     margin-bottom: 20px;
     background-color: #424242; 
+    border: 1px solid #424242;
     color: #FAFAFA;
     font-family: 'Abel', sans-serif;
     font-size: medium;
