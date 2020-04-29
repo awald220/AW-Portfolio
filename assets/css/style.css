@@ -139,6 +139,9 @@ ul li {
     margin-bottom: 40px;
 }
 
+#link-section p {
+}
+
 #link-section button {
     background-color: #FAFAFA; 
     color: #424242;
@@ -147,7 +150,6 @@ ul li {
     padding: 8px;
     width: 85px;
     margin-left: -80px;
-    margin-bottom: 20px;
     font-family: 'Abel', sans-serif;
     font-size: medium;
 }
