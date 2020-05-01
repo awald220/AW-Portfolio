@@ -211,6 +211,11 @@ ul li {
     margin: auto;
 }
 
+#portfolio-section4 {
+    display: flex;
+    margin: auto;
+}
+
 #project {
     flex: 1;
     margin: 20px;
@@ -251,7 +256,6 @@ ul li {
 #button {    
     padding: 10px;
     border-radius: 100px;
-  
     width: 25%;
     margin-top: 30px;
     margin-bottom: 20px;
