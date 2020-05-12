@@ -28,6 +28,7 @@ body{
 
 }
 #logo p {
+    color: #FAFAFA;
     padding: 10px;
     padding-top: 0px;
 }
@@ -195,6 +196,12 @@ ul li {
     margin-bottom: 80px;
 }
 
+#portfolio-section{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
 #portfolio-section1 {
     display: flex;
     margin: auto;
@@ -219,13 +226,13 @@ ul li {
 #project {
     flex: 1;
     margin: 20px;
-    border: 1px solid #f7f5fa;
     border-radius: 10px;
 }
 
 #project img {
     border-bottom: 1px solid #424242;
-    border-radius: 4px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #project h4 {
@@ -242,8 +249,9 @@ ul li {
 
 #project button {
     padding: 5px;
+    width: 90%;
     border-radius: 100px;
-    margin: 5px;
+    margin: auto;
     text-align: center;
     width: 75px;
     background-color: #424242; 
@@ -253,18 +261,22 @@ ul li {
     font-size: medium;
 }
 
-#button {    
+#button {
+    width: 90%;
+    margin: auto;
+}
+
+#button button{   
     padding: 10px;
     border-radius: 100px;
-    width: 25%;
     margin-top: 30px;
     margin-bottom: 20px;
     background-color: #424242;
     color: #FAFAFA;    
     font-family: 'Abel', sans-serif;
     font-size: larger; 
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 5%;
+
    
 
 }
