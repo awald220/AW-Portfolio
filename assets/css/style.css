@@ -135,23 +135,30 @@ ul li {
     margin: auto;
 }  
 
+#link-section-buttons {
+    display: flex;  
+    background-color: #FAFAFA;
+    font-family: 'Abel', sans-serif;
+    margin: auto;
+}
+
 #link-section img{
     margin-top: 20px;
     margin-left: 20px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 #link-section p {
 }
 
-#link-section button {
+#link-section-buttons button {
     background-color: #FAFAFA; 
     color: #424242;
     border: 1px solid #424242;
     border-radius: 100px;
     padding: 8px;
-    width: 85px;
-    margin-left: -80px;
+    width: 100%;
+
     font-family: 'Abel', sans-serif;
     font-size: medium;
 }
